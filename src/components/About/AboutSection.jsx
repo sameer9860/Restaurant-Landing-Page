@@ -42,8 +42,8 @@ export const AboutSection = () => {
           >
             <h2 className="font-headline font-extrabold text-4xl md:text-5xl text-on-surface mb-8">Fresh, Local, Delicious</h2>
             <div className="space-y-6 text-lg text-on-surface-variant leading-relaxed">
-              <p>Located in the heart of Nepal, we serve the finest pizzas, pastas, and burgers using fresh, high-quality ingredients sourced directly from local farmers.</p>
-              <p>Our mission: to bring a smile to every customer with every bite. We believe comfort food shouldn't just be tasty—it should tell a story of craftsmanship and passion.</p>
+              <p>Located in the heart of Nepal, we serve the finest pizzas, pastas, and burgers using fresh, high quality ingredients sourced directly from local farmers.</p>
+              <p>Our mission: to bring a smile to every customer with every bite. We believe comfort food shouldn't just be tasty it should tell a story of craftsmanship and passion.</p>
             </div>
             <div className="mt-10 grid grid-cols-2 gap-6">
               {[
