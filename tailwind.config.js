@@ -1,0 +1,88 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: "class",
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        "tertiary-fixed": "#ff9477",
+        "secondary-fixed-dim": "#ffb548",
+        "surface-tint": "#c22225",
+        "outline": "#82817b",
+        "surface-container-high": "#f0eee5",
+        "surface": "#fffcf5",
+        "on-tertiary-fixed-variant": "#6a210d",
+        "tertiary-dim": "#923e28",
+        "on-secondary-fixed": "#4a2e00",
+        "inverse-primary": "#ff544e",
+        "tertiary-container": "#ff9477",
+        "inverse-on-surface": "#9e9d97",
+        "surface-variant": "#eae8df",
+        "on-tertiary-container": "#5e1805",
+        "surface-container-highest": "#eae8df",
+        "primary": "#c22225",
+        "tertiary-fixed-dim": "#f0866b",
+        "on-background": "#383833",
+        "surface-container-lowest": "#ffffff",
+        "surface-container-low": "#fcf9f2",
+        "on-primary-container": "#4f0004",
+        "inverse-surface": "#0e0e0b",
+        "on-primary": "#ffffff",
+        "on-error": "#ffffff",
+        "surface-bright": "#fffcf5",
+        "on-primary-fixed": "#000000",
+        "on-secondary-fixed-variant": "#704800",
+        "on-surface": "#383833",
+        "secondary": "#8b5a00",
+        "primary-container": "#ff766d",
+        "secondary-dim": "#7b4f00",
+        "on-tertiary-fixed": "#350600",
+        "secondary-container": "#ffc87f",
+        "background": "#fffcf5",
+        "error": "#be2d06",
+        "outline-variant": "#bbb9b3",
+        "surface-container": "#f6f3eb",
+        "error-container": "#f95630",
+        "on-primary-fixed-variant": "#600007",
+        "on-tertiary": "#ffffff",
+        "on-surface-variant": "#65645f",
+        "error-dim": "#b92902",
+        "on-error-container": "#520c00",
+        "surface-dim": "#e5e3d9",
+        "tertiary": "#a24a33",
+        "on-secondary": "#ffffff",
+        "on-secondary-container": "#644000",
+        "primary-dim": "#b1111b",
+        "primary-fixed-dim": "#ff5a53",
+        "secondary-fixed": "#ffc87f",
+        "primary-fixed": "#ff766d"
+      },
+      fontFamily: {
+        "headline": ["Plus Jakarta Sans"],
+        "body": ["Be Vietnam Pro"],
+        "label": ["Be Vietnam Pro"]
+      },
+      borderRadius: {
+        "DEFAULT": "1rem",
+        "lg": "2rem",
+        "xl": "3rem",
+        "full": "9999px"
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+      },
+      animation: {
+        fadeIn: 'fadeIn 0.8s ease-out forwards',
+      },
+    },
+  },
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/container-queries'),
+  ],
+}
