@@ -1,4 +1,6 @@
 import React from "react";
+import { Button } from "../Shared/Button";
+import { RESTAURANT_INFO } from "../../constants/restaurantConstants";
 
 const NAV_LINKS = [
   { label: "Home", href: "#", active: true },
@@ -22,9 +24,9 @@ export const NavBar = () => {
     <nav className="fixed top-0 w-full z-50 bg-[#fffcf5] dark:bg-gray-950/80 backdrop-blur-md shadow-sm dark:shadow-none">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         <div className="flex items-center gap-2">
-          <span className="material-symbols-outlined text-[#c22225] text-3xl">restaurant</span>
-          <span className="font-headline font-extrabold tracking-tight text-2xl italic text-[#c22225] dark:text-red-500">
-            Himalayan Hearth
+          <span className="material-symbols-outlined text-primary text-3xl">restaurant</span>
+          <span className="font-headline font-extrabold tracking-tight text-2xl italic text-primary dark:text-red-500">
+            {RESTAURANT_INFO.NAME}
           </span>
         </div>
         
@@ -36,20 +38,19 @@ export const NavBar = () => {
               onClick={(e) => handleScroll(e, link.href)}
               className={
                 link.active 
-                  ? "text-[#c22225] border-b-2 border-[#c22225] pb-1 font-medium" 
-                  : "text-[#383833] dark:text-gray-300 hover:text-[#c22225] transition-colors font-medium"
+                  ? "text-primary border-b-2 border-primary pb-1 font-medium" 
+                  : "text-on-surface hover:text-primary transition-colors font-medium opacity-80 hover:opacity-100"
               }
             >
               {link.label}
             </a>
           ))}
-          <a
-            href="#contact"
+          <Button 
+            className="px-6 py-2 text-base"
             onClick={(e) => handleScroll(e, "#contact")}
-            className="bg-primary text-on-primary px-6 py-2 rounded-full font-bold hover:opacity-80 transition-all duration-300 active:scale-95"
           >
             Book a Table
-          </a>
+          </Button>
         </div>
 
         <button className="md:hidden text-on-surface">
