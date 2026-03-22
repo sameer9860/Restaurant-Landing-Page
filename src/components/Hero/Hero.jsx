@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 
 
 export const Hero = () => {
-  const handleOrderNow = () => alert("Order now clicked!");
   const handleBookTable = () => {
     const el = document.querySelector("#contact");
     if (el) el.scrollIntoView({ behavior: "smooth" });
@@ -56,7 +55,6 @@ export const Hero = () => {
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4">
             <button 
               className="bg-primary text-on-primary px-10 py-5 rounded-full font-headline font-extrabold text-lg shadow-xl shadow-primary/20 hover:scale-105 active:scale-95 transition-all"
-              onClick={handleOrderNow}
             >
               Order Now
             </button>
