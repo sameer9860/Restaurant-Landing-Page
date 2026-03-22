@@ -8,7 +8,7 @@ export const RESTAURANT_INFO = {
   NAME: "The Himalayan Plate",
   ADDRESS: "Kathmandu, Nepal",
   PHONE: "+977 1234567890",
-  EMAIL: "contact@himalayanhearth.com",
+  EMAIL: "contact@thehimalayanplate.com",
   HOURS: {
     WEEKDAYS: "11:00 - 22:00",
     WEEKENDS: "10:00 - 23:00",
