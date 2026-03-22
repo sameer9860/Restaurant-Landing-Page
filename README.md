@@ -64,23 +64,6 @@ Starts the development server in development mode.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.
-- Correctly bundles React in production mode
-- Optimizes the build for the best performance
-- The build is minified and filenames include hashes
-- Your app is ready to be deployed!
-
-### `npm test`
-
-Launches the test runner in interactive watch mode.
-- See the official [running tests documentation](https://facebook.github.io/create-react-app/docs/running-tests) for more information
-
-### `npm run eject`
-
-⚠️ **Warning: this is a one-way operation. Once you eject, you can't go back!**
-
-Exposes all configuration files and dependencies. This command should be used only if you need full control over the webpack, Babel, and ESLint configuration.
-
 ## 🛠️ Tech Stack
 
 - **React** - UI library
