@@ -45,11 +45,11 @@ export const Footer = () => {
           <h4 className="font-headline font-bold mb-6 text-on-surface uppercase tracking-widest text-xs opacity-70">Opening Hours</h4>
           <ul className="space-y-4 font-body text-sm text-on-surface-variant dark:text-gray-400">
             <li className="flex justify-between">
-              <span>Mon - Fri:</span> 
+              <span>Mon-Fri:</span> 
               <span className="font-semibold">{RESTAURANT_INFO.HOURS.WEEKDAYS}</span>
             </li>
             <li className="flex justify-between">
-              <span>Sat - Sun:</span> 
+              <span>Sat-Sun:</span> 
               <span className="font-semibold">{RESTAURANT_INFO.HOURS.WEEKENDS}</span>
             </li>
           </ul>
