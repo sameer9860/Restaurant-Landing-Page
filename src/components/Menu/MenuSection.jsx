@@ -15,8 +15,7 @@ export const MenuSection = () => {
             className="mb-0"
           />
           <button className="flex items-center gap-2 text-primary font-bold hover:underline decoration-2 underline-offset-8 transition-all">
-            View Full Menu
-            <span className="material-symbols-outlined">arrow_forward</span>
+            Explore  Full Menu
           </button>
         </div>
 
