@@ -5,9 +5,9 @@ export const MENU_CATEGORIES = {
 };
 
 export const RESTAURANT_INFO = {
-  NAME: "Himalayan Hearth",
+  NAME: "The Himalayan Plate",
   ADDRESS: "Kathmandu, Nepal",
-  PHONE: "+977-1-XXXXXXXXXX",
+  PHONE: "+977 1234567890",
   EMAIL: "contact@himalayanhearth.com",
   HOURS: {
     WEEKDAYS: "11:00 - 22:00",
